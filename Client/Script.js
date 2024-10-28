@@ -2,7 +2,7 @@ let form=document.getElementById('form');
 let input=document.getElementById("inputwork");
 let ul=document.getElementById("display_ul");
 let trashbtn=document.getElementById("trashbtn");
-let URL="http:localhost:4000"
+let URL="https://todoapllicationmern-backend.onrender.com"
 function addingdatastodb(){
   form.addEventListener("submit",(event)=>{
     event.preventDefault();
