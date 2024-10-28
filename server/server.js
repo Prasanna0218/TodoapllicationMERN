@@ -8,7 +8,7 @@ let app=express();
 app.use(cors());
 app.use(express.json());
 
-let PORT=4000;
+let PORT= process.env.PORT || 4000;
 mongoose.connect('mongodb+srv://prasannampmrasanna:vJQW5HYh2ypgUer8@todo2.hctzp.mongodb.net/todoApp?retryWrites=true&w=majority&appName=Todo2')
 .then(()=>{
   console.log('Database connected!');
