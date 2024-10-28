@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo_2</title>
+    <!-- Custom css link start -->
+     <link rel="stylesheet" href="./style.css">
+    <!-- Custom css link end -->
+    <!-- font awesome cdn link starts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- font awesome cdn link end -->
+</head>
+<body>
+    <div class="container">
+        <!-- Heading div starts -->
+         <div>
+            <h1 class="heading">To Do Today🗓️</h1>
+         </div>
+        <!-- Heading div end -->
+         <!-- Input div starts -->
+        <form class="input_field_box" id="form">
+                <input type="text" title="Give works here" placeholder="Enter the Works we have Today..." id="inputwork">
+            <button type="submit" title="Submit your Response">Save <i class="fa-solid fa-database" style="margin-left: 3px;"></i></button>    
+            <button id="trashbtn" type="button" title="Delete all the works"><i class="fa-solid fa-trash"></i></button>
+        </form>
+        <!-- Input div end -->
+        <!-- display div starts -->
+            <div class="display_container">
+                <ul class="display_ul" id="display_ul">
+                    <!-- <li class="display_li">
+                        <div class="display_li_div">
+                        <p>1.<span> ✅</span></p>
+                        <p>Home work</p>
+                        <button>Completed <i class="fa-regular fa-thumbs-up"></i></button>
+                        </div>
+                        <div>
+                            <button class="ind_delete"><i class="fa-solid fa-xmark"></i></button>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        <!-- display div end -->
+
+        <!-- Custom script link start -->
+         <script src="./Script.js"></script>
+        <!-- Custom script link end -->
+    </div>
+</body>
+</html>
